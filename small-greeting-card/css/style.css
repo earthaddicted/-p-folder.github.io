@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Hitch-hike;
+    src: url('../fonts/Hitch-hike.otf');
+}
+
+@font-face {
+    font-family: SF-UI-Display;
+    src: url('../fonts/SF-UI-Display-Regular.ttf');
+}
+
+@font-face {
+    font-family: SF-UI-Display-Heavy;
+    src: url('../fonts/SF-UI-Display-Heavy.ttf');
+}
+
+@font-face {
+    font-family: SF-UI-Display-Thin;
+    src: url('../fonts/SF-UI-Display-Thin.ttf');
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #edba4d;
+    position: relative;
+    overflow: hidden;
+}
+/*text*/
+h2 {
+    font-family: SF-UI-Display-Thin;
+    font-size: 100px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+h2:last-of-type {
+    font-family: SF-UI-Display;
+    font-size: 150px;
+}
+
+.exclamation {
+    font-family: SF-UI-Display-Heavy;
+    font-size: 180px;
+    margin-left: -25px;
+}
+
+/*v1*/
+/*.ps {*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*font-family: Hitch-hike;*/
+    /*font-size: 40px;*/
+    /*margin: 0 50px 20px 0;*/
+    /*padding: 0 5px;*/
+    /*animation: blink-phrase .2s infinite linear;*/
+/*}*/
+/*v2*/
+.ps-container {
+    position: relative;
+    width: 1000px;
+    height: 180px;
+    float: right;
+}
+
+.ps {
+    position: absolute;
+    /*bottom: 0;*/
+    /*right: 0;*/
+    height: 180px;
+    width: 100%;
+    background:
+            url('../img/letters/p letter.svg'),
+            url('../img/letters/s letter.svg'),
+            url('../img/letters/dot.svg'),
+            url('../img/letters/blank.svg'),
+            url('../img/letters/i letter.svg'),
+            url('../img/letters/blank.svg'),
+            url('../img/letters/m letter.svg'),
+            url('../img/letters/i letter.svg'),
+            url('../img/letters/s letter.svg'),
+            url('../img/letters/s letter.svg'),
+            url('../img/letters/e letter.svg'),
+            url('../img/letters/d letter.svg'),
+            url('../img/letters/blank.svg'),
+            url('../img/letters/y letter.svg'),
+            url('../img/letters/o letter.svg'),
+            url('../img/letters/u letter.svg'),
+            url('../img/letters/comma.svg'),
+            url('../img/letters/blank.svg'),
+            url('../img/letters/b letter.svg'),
+            url('../img/letters/u letter.svg'),
+            url('../img/letters/d letter.svg'),
+            url('../img/letters/d letter.svg'),
+            url('../img/letters/y letter.svg'),
+            url('../img/letters/exclamation mark.svg');
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position-y: -145px, -145px, -145px, -128px, -145px, -128px, -145px, -145px, -145px, -145px, -111px, -128px, -128px, -105px, -103px, -118px, -128px, -128px, -129px, -118px, -128px, -128px, -107px, -136px;
+    background-position-x: 0, 37px, 73px, 124px, 148px, 199px, 223px, 260px, 297px, 334px, 367px, 420px, 457px, 482px, 513px, 557px, 605px, 642px, 679px, 705px, 753px, 790px, 814px, 850px;
+}
+
+/*layer*/
+.title-container {
+    position: relative;
+}
+
+.title-top-layer  {
+    position: absolute;
+    background: transparent;
+    color: transparent;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.title-top-layer h2 {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+/*image*/
+.image-container {
+    width: 100vw;
+}
+
+.plane {
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 500px;
+    background:
+            url("../img/SevenX.svg") no-repeat,
+            url("../img/Plane.svg") no-repeat;
+    background-size: 80px, cover;
+    background-position: 189px 247px, center;
+    background-clip: content-box;
+    z-index: 5;
+    animation: move-plane infinite linear;
+    animation-duration: 15s;
+    transition: 20s;
+}
+
+@keyframes move-plane {
+    0%   {transform: translateX(0px) rotate(0deg) scale(.3);}
+    15%   {transform: translateX(20vw) rotate(0deg) scale(.3);}
+    10%   {transform: translateX(30vw) rotate(0deg) scale(.4);}
+    15%  {transform: translateX(40vw) rotate(0deg) scale(.5);}
+    20%  {transform: translateX(50vw) rotate(0deg) scale(.6);}
+    25%  {transform: translateX(60vw) rotate(0deg) scale(.7);}
+    30%  {transform: translateX(70vw) rotate(0deg) scale(.8);}
+    35%  {transform: translateX(80vw) rotate(0deg) scale(.9);}
+    40%  {transform: translateX(100vw) rotate(0deg) scale(1);}
+    45%  {transform:  translateX(130vw) rotate(180deg) scale(1);}
+    50%  {transform:  translateX(120vw) rotate(180deg) scale(1.1);}
+    55%  {transform:  translateX(100vw) rotate(180deg) scale(1);}
+    60%  {transform:  translateX(80vw) rotate(180deg) scale(.9);}
+    65%  {transform:  translateX(60vw) rotate(180deg) scale(.8);}
+    70%  {transform:  translateX(40vw) rotate(180deg) scale(.7);}
+    75%  {transform:  translateX(20vw) rotate(180deg) scale(.6);}
+    80%  {transform:  translateX(0vw) rotate(180deg) scale(.5);}
+    85%  {transform:  translateX(-20vw) rotate(180deg) scale(.3);}
+    90%  {transform: translateX(-80vw) rotate(360deg) scale(.3);}
+    /*95%  {transform: translateX(-30vw) rotate(360deg) scale(.3);}*/
+    100% {transform: translateX(0px) rotate(360deg) scale(.3);}
+}
+
+/*@keyframes move-plane {*/
+    /*0%   {transform: translateX(0vw) rotate(0deg) scale(.3);}*/
+    /*5%   {transform: translateX(5vw) rotate(0deg) scale(.3);}*/
+    /*49%  {transform:  translateX(100vw) rotate(0deg) scale(.9);}*/
+    /*50%  {transform:  translateX(120vw) rotate(180deg) scale(1);}*/
+    /*97%  {transform: translateX(-70vw) rotate(180deg) scale(.3);}*/
+    /*99%  {transform: translateX(-70vw) rotate(360deg) scale(.3);}*/
+    /*100% {transform: translateX(-20vw) rotate(0deg) scale(.3);}*/
+
+/*}*/
+
+@keyframes blink-phrase {
+    to {
+        color: #fff;
+        background: #000}
+}
+
+@media screen and (max-width: 1000px) {
+    .ps-container {
+        width: 98%;
+    }
+
+    h2 {
+        font-size: 90px;
+    }
+
+    h2:last-of-type {
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 700px)  {
+    h2 {
+        font-size: 70px;
+    }
+
+    h2:last-of-type {
+        font-size: 90px;
+    }
+
+    .plane {
+        top: 5%;
+    }
+}
+
+

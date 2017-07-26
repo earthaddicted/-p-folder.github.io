@@ -1,2 +1,1 @@
-github page project greeting card https://earthaddicted.github.io/portfolio-folder.github.io/
-
+# greeting-card look at the page https://earthaddicted.github.io/greeting-card/
