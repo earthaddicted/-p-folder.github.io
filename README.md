@@ -5,4 +5,4 @@ github page project youth center https://earthaddicted.github.io/portfolio-folde
 
 github page for small greeting card https://earthaddicted.github.io/greeting-card/
 
-github page for small greeting card https://earthaddicted.github.io/portfolio-folder.github.io/greeting-card.github.io/
+github page for small greeting card https://earthaddicted.github.io/portfolio-folder.github.io/greetingCard.github.io/
