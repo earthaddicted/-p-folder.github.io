@@ -138,7 +138,6 @@ h2:last-of-type {
     width: 400px;
     height: 500px;
     background:
-            url("../img/SevenX.svg") no-repeat,
             url("../img/Plane.svg") no-repeat;
     background-size: 80px, cover;
     background-position: 189px 247px, center;
