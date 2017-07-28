@@ -848,14 +848,14 @@ small {
   color: #cacaca; }
 
 a {
-  color: #ff704c;
+  color: #088e2c;
   text-decoration: none; }
   a:hover {
-    color: #ff4719; }
+    color: #055e1d; }
   a:active {
-    color: #ff4719; }
+    color: #055e1d; }
   a:visited {
-    color: #ff704c; }
+    color: #088e2c; }
 
 h1 a,
 h1 a:visited,
@@ -869,7 +869,7 @@ h5 a,
 h5 a:visited,
 h6 a,
 h6 a:visited {
-  color: #ff704c; }
+  color: #088e2c; }
 
 pre {
   background: #f3f3f3;
@@ -908,9 +908,9 @@ table.button {
   Margin: 0 0 16px 0; }
   table.button table td {
     text-align: left;
-    color: #ff704c;
+    color: #088e2c;
     background: transparent;
-    border: 2px solid #ff704c; }
+    border: 2px solid #088e2c; }
     table.button table td.radius {
       border-radius: 0; }
     table.button table td.rounded {
@@ -919,7 +919,7 @@ table.button {
       font-family: Arial, sans-serif;
       font-size: 16px;
       font-weight: normal;
-      color: #ff704c;
+      color: #088e2c;
       text-decoration: none;
       display: inline-block;
       padding: 12px 35px 12px 35px;
@@ -939,7 +939,7 @@ table.button.small table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #ff704c; }
+  color: #088e2c; }
 
 table.button.tiny table td,
 table.button.tiny table a {
@@ -975,7 +975,7 @@ table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
   background: transparent;
-  color: #ff704c; }
+  color: #088e2c; }
 
 table.button:hover table a,
 table.button:visited table a,
@@ -984,28 +984,28 @@ table.button:active table a {
 
 table.button.secondary table td {
   background: #777777;
-  color: #ff704c;
+  color: #088e2c;
   border: 2px solid #777777; }
 
 table.button.secondary table a {
-  color: #ff704c;
+  color: #088e2c;
   border: 0px solid #777777; }
 
 table.button.secondary:hover table td {
   background: #919191;
-  color: #ff704c; }
+  color: #088e2c; }
 
 table.button.secondary:hover table a {
   border: 0px solid #919191; }
 
 table.button.secondary:hover table td a {
-  color: #ff704c; }
+  color: #088e2c; }
 
 table.button.secondary:active table td a {
-  color: #ff704c; }
+  color: #088e2c; }
 
 table.button.secondary table td a:visited {
-  color: #ff704c; }
+  color: #088e2c; }
 
 table.button.success table td {
   background: #3adb76;
@@ -1043,7 +1043,7 @@ th.callout-inner {
   padding: 10px;
   background: #ffffff; }
   th.callout-inner.primary {
-    background: #ffeae4;
+    background: #ccfcd9;
     border: 1px solid #444444;
     color: #000000; }
   th.callout-inner.secondary {
@@ -1073,7 +1073,7 @@ th.callout-inner {
   border-radius: 3px;
   margin-bottom: 16px; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(255, 112, 76, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(8, 142, 44, 0.5); }
 
 table.menu {
   width: 580px; }
@@ -1083,7 +1083,7 @@ table.menu {
     padding-right: 10px; }
     table.menu td.menu-item a,
     table.menu th.menu-item a {
-      color: #ff704c; }
+      color: #088e2c; }
 
 table.menu.vertical td.menu-item,
 table.menu.vertical th.menu-item {
@@ -1422,7 +1422,7 @@ body.outlook p {
 
 .item-name {
   text-transform: uppercase;
-  color: #ff704c; }
+  color: #088e2c; }
 
 .item-price {
   color: #666666; }
