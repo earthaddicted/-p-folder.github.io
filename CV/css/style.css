@@ -844,6 +844,7 @@ to {
     display: flex;
     justify-content: center;
     width: auto;
+    max-width: 500px;
     margin: auto;
 }
 
