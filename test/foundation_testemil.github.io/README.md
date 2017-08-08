@@ -1,1 +1,1 @@
-https://earthaddicted.github.io/portfolio-folder.github.io/antidi.github.io/foundation_testemil.github.io/dist/basic.html
+https://earthaddicted.github.io/portfolio-folder.github.io/test/foundation_testemil.github.io/dist/
