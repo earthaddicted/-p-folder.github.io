@@ -1,3 +1,5 @@
+github page CV https://earthaddicted.github.io/portfolio-folder.github.io/CV/
+
 github page project antidi https://earthaddicted.github.io/portfolio-folder.github.io/antidi.github.io/
 
 
