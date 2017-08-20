@@ -274,8 +274,8 @@ section {
 .nose {
     z-index: 20;
     top: 62px;
-    left: 40px;
-    width: 6px;
+    left: 37px;
+    width: 5px;
     height: 10px;
     background: #DB9B99;
     border-radius: 100px;
@@ -637,8 +637,10 @@ section {
 .skills-container {
     display: flex;
     -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .skills-item {
@@ -920,5 +922,9 @@ to {
 
     h1 {
         font-size: 12vw;
+    }
+
+    .skills-item {
+        width: 33.33%;
     }
 }
