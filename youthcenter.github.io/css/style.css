@@ -207,7 +207,7 @@ a {
           justify-content: space-between;
   width: 19.3vw;
   border-right: 1px solid rgba(255, 255, 255, 0.15);
-  width: 19.3vw;
+  width: 19.3%;
   background: black;
   padding: 15px 40px 16px;
   z-index: 2000; }
@@ -346,6 +346,7 @@ header .menu-wrapper {
   display: flex;
   width: 100%;
   max-width: 1920px;
+   margin: auto;
   background: white; }
 
 .info-menu-wrapper {
@@ -353,7 +354,7 @@ header .menu-wrapper {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: 79.8vw; }
+  width: 79.8%; }
   .info-menu-wrapper img {
     width: 100%; }
   .info-menu-wrapper .small-size-logo {
@@ -365,7 +366,7 @@ header .menu-wrapper {
 .info-menu-wrapper > a:first-of-type {
   background: #5f3974;
   padding: 17px 35px 16px 38px;
-  width: 19.3vw;
+  width: 19.3%;
   z-index: 1000; }
 
 .info-menu {
