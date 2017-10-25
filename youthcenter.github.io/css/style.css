@@ -860,7 +860,7 @@ header .sidebar {
     letter-spacing: 1.3px; }
 
 .news-item__horizontal {
-  width: 48vw; }
+  width: 48%; }
   .news-item__horizontal:first-of-type {
     margin-right: 43px; }
 
