@@ -1082,7 +1082,7 @@ header .sidebar {
     letter-spacing: .25px; }
 
 .success {
-  width: 53.5%;
+  width: 70%;
   margin-right: 5%;
   margin-bottom: 122px; }
 
@@ -1130,7 +1130,7 @@ header .sidebar {
   -webkit-flex-flow: column wrap;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  width: 15%;
+  width: 25%;
   margin-left: 20px; }
   .support h3 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
