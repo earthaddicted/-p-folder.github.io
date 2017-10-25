@@ -1039,6 +1039,7 @@ header .sidebar {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 23.8%;
+     width: 100%;
     padding-bottom: 21px;
     overflow: hidden;
     -webkit-transition: ease-out .3s;
@@ -1113,7 +1114,9 @@ header .sidebar {
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+     width: 50%;
+}
     .stories-block__item:first-of-type {
       border-right: 1px solid #e1e1e1;
       padding-right: 20px; }
