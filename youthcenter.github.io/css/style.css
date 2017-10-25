@@ -860,7 +860,7 @@ header .sidebar {
     letter-spacing: 1.3px; }
 
 .news-item__horizontal {
-  width: 48%; }
+  width: 48vw; }
   .news-item__horizontal:first-of-type {
     margin-right: 43px; }
 
@@ -890,7 +890,7 @@ header .sidebar {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 52%;
+  width: 52vw;
   padding: 13px 0 10px 30px; }
   .news-data h6 {
     font-family: 'DINPro-light';
@@ -961,7 +961,7 @@ header .sidebar {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 19%;
+  width: 19vw;
   max-width: 290px;
   margin: 40px 37px 0 0;
   overflow: hidden; }
