@@ -13,7 +13,7 @@ body .container {
     max-width: 90vw;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
-    margin: 25px 50px;
+    margin: 25px auto;
     padding: 25px 50px;
 }
 
@@ -85,10 +85,6 @@ section {
     left: 0;
     width: 200px;
     height: 200px;
-    height: 20vmin;
-    width: 20vmin;
-    min-height: 200px;
-    min-width: 200px;
     overflow: hidden;
     border-radius: 50%;
     -webkit-border-radius: 50%;
