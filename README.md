@@ -15,4 +15,5 @@ https://earthaddicted.github.io/portfolio-folder.github.io/chicaga.github.io/cor
 https://earthaddicted.github.io/portfolio-folder.github.io/chicaga.github.io/kids.html
 
 github page for Врата миров https://earthaddicted.github.io/portfolio-folder.github.io/project_gates.io/index.html
+
 github page for Врата миров поездка https://earthaddicted.github.io/portfolio-folder.github.io/gates_trip.io/index.html
