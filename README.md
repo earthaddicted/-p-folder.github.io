@@ -14,3 +14,5 @@ github page for chicaga.ru English website (adaptife of already exhisted pages a
 https://earthaddicted.github.io/portfolio-folder.github.io/chicaga.github.io/corporate.html
 https://earthaddicted.github.io/portfolio-folder.github.io/chicaga.github.io/kids.html
 
+github page for Врата миров https://earthaddicted.github.io/portfolio-folder.github.io/project_gates.io/index.html
+github page for Врата миров поездка https://earthaddicted.github.io/portfolio-folder.github.io/gates_trip.io/index.html
