@@ -242,8 +242,9 @@ footer {
     -webkit-transition: ease-out .3s;
     transition: ease-out .3s; }
     .preview-block__item a:hover {
-      color: #d2d2d2;
-      border: 2px solid  #b7b3b3; }
+      color: #fff;
+      border: 2px solid #22726e;
+      background: #22726e; }
 
 .preview-short {
   max-width: 215px; }
@@ -256,18 +257,6 @@ footer {
 .event-title {
   color: #fff;
   font-size: 58px; }
-
-.articles-preview__preview-1 {
-  background: url("../img/slider-1.png") 50% 50%;
-  background-repeat: no-repeat; }
-
-.articles-preview__preview-2 {
-  background: url("../img/slider-2.png") 50% 50%;
-  background-repeat: no-repeat; }
-
-.articles-preview__preview-3 {
-  background: url("../img/slider-3.png") 50% 50%;
-  background-repeat: no-repeat; }
 
 .slick-dots {
   display: -webkit-box;
@@ -293,6 +282,27 @@ footer {
   float: left;
   width: 33%; }
 
+.article-preview__wrapper article {
+  position: relative;
+  overflow: hidden;
+  height: 488px; }
+  .article-preview__wrapper article img {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: auto;
+    top: 0;
+    max-width: initial;
+    bottom: 0;
+    right: 0;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin: auto; }
+
 /* ______ articles-preview END______ */
 /* ______ time-table ______ */
 .time-table {
@@ -303,8 +313,8 @@ footer {
   .time-table .time-table__block {
     margin: 65px 0;
     border-spacing: 10px;
-    -webkit-box-shadow: 1px 1px 76px rgba(20, 66, 64, 0.15);
-            box-shadow: 1px 1px 76px rgba(20, 66, 64, 0.15); }
+    -webkit-box-shadow: 1px 1px 76px rgba(20, 66, 64, 0.95);
+            box-shadow: 1px 1px 76px rgba(20, 66, 64, 0.95); }
   .time-table tr:first-of-type {
     background: #87b1ac;
     color: #fff; }
@@ -386,6 +396,8 @@ footer {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0; }
+  .master-class .wrapper-block__title {
+    height: 80px; }
 
 .master-classes-bg {
   position: absolute;
@@ -482,11 +494,15 @@ footer {
     height: 315px; }
   .masters .info-block_item {
     background: #b2c6c3;
-    min-height: 479px;
+    min-height: 515px;
     height: 100%;
     border-bottom: 10px solid #a6c1c0; }
   .masters .wrapper-block__title {
-    color: #fff; }
+    color: #fff;
+    -webkit-transition: ease-out .3s;
+    transition: ease-out .3s; }
+    .masters .wrapper-block__title:hover {
+      color: #22726e; }
   .masters .wrapper-block_text {
     padding: 42px 14px 21px; }
   .masters .wrapper-block__info-description {
@@ -496,6 +512,16 @@ footer {
     font-size: 20px;
     font-weight: 400;
     font-family: 'Circe Bold'; }
+
+.main-page__soc-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 6px auto;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background: url("../img/vk-1.png"); }
 
 /* ______ Masters END______ */
 /* ______ Practicum ______ */
@@ -932,6 +958,10 @@ footer {
     -webkit-box-align: center;
             align-items: center;
     margin: 26px auto; }
+  .wrapper-block__title,
+  .master-class .wrapper-block__title {
+    min-height: 50px;
+    height: auto; }
   .master-class .main-heading__light {
     color: #666; }
   .info-block_item {
@@ -1186,7 +1216,9 @@ footer {
     min-height: 47px;
     font-size: 3vw; }
   .time-table .time-table__block {
-    margin: 40px 0; } }
+    margin: 40px 0; }
+  .contacts-info-block {
+    padding: 45px 10px; } }
 
 /* ADAPTIVE END */
 /* MOBILE MENU SETTINGS */
