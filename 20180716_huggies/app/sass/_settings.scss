@@ -185,31 +185,31 @@ main {
     border: transparent;
     text-align: center;
 
-    a,
-    span,
-    div {
-        display: inline-block;
-        margin: 30px;
-        border-radius: 28px;
-        background-image: linear-gradient(-58deg, #e3402e 0%, #d12823 100%);
-        color: #fff;
-        font-size: 20px;
-        text-align: center;
-        text-transform: uppercase;
-        font-variant: small-caps;
-        padding: 18px 65px;
-        @include transition-ease-in-out;
-        cursor: pointer;
+        a,
+        span,
+        div {
+            display: inline-block;
+            margin: 30px;
+            border-radius: 28px;
+            background-image: linear-gradient(-58deg, #e3402e 0%, #d12823 100%);
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-variant: small-caps;
+            padding: 18px 65px;
+            @include transition-ease-in-out;
+            cursor: pointer;
 
-        &:hover {
-            -webkit-box-shadow: 3px 8px 41px -5px rgba(0,0,0,0.75);
-            -moz-box-shadow: 3px 8px 41px -5px rgba(0,0,0,0.75);
-            box-shadow: 3px 8px 41px -5px rgba(0,0,0,0.75);
+            &:hover {
+                -webkit-box-shadow: 3px 8px 41px -5px rgba(0,0,0,0.75);
+                -moz-box-shadow: 3px 8px 41px -5px rgba(0,0,0,0.75);
+                box-shadow: 3px 8px 41px -5px rgba(0,0,0,0.75);
+            }
         }
-    }
 
     &__next {
-        span {
+        span, a {
             display: inline-flex;
             align-items: center;
             font-size: 14px;

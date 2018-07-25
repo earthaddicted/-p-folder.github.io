@@ -57,9 +57,13 @@
 	}
 
 	.btn-wrapper a {
-		min-width: 265px;
+		// min-width: 265px;
 		margin: 20px;
 		padding: 18px 20px;
+		font-size: 14px;
+		padding: 14px 30px;
+		line-height: normal;
+
 	}
 
 	.prod-logo {
@@ -210,11 +214,16 @@
 	}
 
 	.step-page-2 {
+		.btn-block {
+			max-width: 350px;
+		}
+
 		.block-wrapper {
 			padding: 20px 0;
 		}
 
 		.step-item {
+			max-width: 340px;
 			padding: 0px 20px 20px;
 		}
 
@@ -231,17 +240,22 @@
 			}
 		}
 
-		.btn-wrapper__next,
 		.btn-wrapper__previous {
-			span {
-				padding: 6px 20px;
+			span, a {
+				min-width: auto;
+				padding: 13px 20px;
 				font-size: 9px;
 			}
 		}
-	}
 
-	.btn-block {
-		flex-direction: column;
+		.btn-wrapper__next {
+
+			span, a {
+				padding: 13px 9px;
+				min-width: auto;
+				font-size: 9px;
+			}
+		}
 	}
 
 	.step-page .step-item__right {
