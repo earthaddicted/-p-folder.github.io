@@ -240,6 +240,10 @@
 		}
 	}
 
+	.btn-block {
+		flex-direction: column;
+	}
+
 	.step-page .step-item__right {
 		margin-top: 20px;
 	}
