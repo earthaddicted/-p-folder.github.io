@@ -1515,3 +1515,7 @@ input[type="checkbox"] {
 @media only screen and (max-width: 425px) {
   .col-img iframe {
     height: 100%; } }
+
+label.custom-file-upload {
+   cursor: pointer;
+}
