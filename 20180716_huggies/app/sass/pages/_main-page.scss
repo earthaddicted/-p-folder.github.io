@@ -1,0 +1,28 @@
+.left-col {
+	max-width: 460px;
+	padding: 20px 20px 20px 0;
+
+	.btn-wrapper {
+		text-align: left;
+	}
+}
+
+.main-page {
+	&::before {
+		content: '';
+		background-image: url('../../images/bg/page-main.jpg');
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: 50% 50%;
+	    background-attachment: fixed;
+	    z-index: -1;
+	    width: 100%;
+	    height: 100vh;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    position: fixed;
+	}
+}
+

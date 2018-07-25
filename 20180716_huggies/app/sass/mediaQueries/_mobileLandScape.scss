@@ -1,0 +1,52 @@
+@media only screen and (max-width: 480px) {
+	.block-wrapper {
+
+		.btn-wrapper a {
+			margin: 20px 0;
+		}
+	}
+	.main-page {
+		&::before {
+			background-image: url('../../images/bg/bg-main-small.jpg');
+		}
+	}
+
+	.owl-carousel .owl-item img {
+		width: auto!important;
+		height: 202px;
+	}
+
+	.block-wrapper__no-padding {
+		padding: 0;
+	}
+
+	.step {
+		&-line {
+			&__1 {
+				background: url('../../images/step-1-mob.png');
+				background-repeat: no-repeat;
+				width: 100vw;
+				height: 70px;
+				margin-left: -20px;
+			    background-position: 50% 50%;
+			}
+
+			&__2 {
+				background: url('../../images/2-step-mob.png');
+				background-repeat: no-repeat;
+				width: 100vw;
+				height: 70px;
+			    background-position: 50% 50%;
+			}
+
+			&__3 {
+				background: url('../../images/3-step-mob.png');
+				background-repeat: no-repeat;
+				width: 100vw;
+				height: 70px;
+				margin-left: -20px;
+			    background-position: 50% 50%;
+			}
+		}
+	}
+}

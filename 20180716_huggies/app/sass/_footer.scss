@@ -1,0 +1,44 @@
+
+/* ============= FOOTER  ============= */
+
+footer {
+	font-size: 14px;
+}
+
+footer .block-wrapper {
+	@include flex-container;
+    @include flex-justify-content-space-between;
+    font-size: 14px;
+    
+    a {
+    	color: #333;
+    }
+}
+
+.footer-privacy {
+
+	a {
+		margin: 0 50px;
+		border-bottom: 1px solid transparent;
+		@include transition-ease-in-out;
+
+		&:hover {
+			border-bottom: 1px solid #333;
+		}
+	}
+}
+
+.contacts a {
+	margin-left: 25px;
+}
+
+.small-text {
+	span {
+		display: block;
+		text-align: left;
+		line-height: 16px;
+		font-size: 12px;
+	}
+}
+
+/* ============= FOOTER END ============= */
