@@ -1,0 +1,51 @@
+mixin b-contacts(data)
+    +b.w-half
+        H2 Contacts
+
+        +e.wrapper
+            +b.item-row
+                +b.block-left-s
+                    img(src="../assets/svg/map-icon.svg", alt="location")
+
+                +b.block-right-l
+                    p Euston Rd, Greater London N1 9AL
+                    span Platform 9 3/4
+
+            +b.item-row
+                +b.block-left-s
+                    img(src="../assets/svg/phone-icon.svg", alt="phone")
+
+                +b.block-right-l
+                    a(href="tel:+442031967375") +44 20 3196 7375
+
+            +b.item-row
+                +b.block-left-s
+                    img(src="../assets/svg/mail-icon.svg", alt="mail")
+
+                +b.block-right-l
+                    a(href="mailto:test@test.com") test@test.com
+
+    +b.w-half.contacts-form
+        H2 Get in touch
+        +e.wrapper
+            form(action="")
+                +b.item-col
+                    .input.label-name
+                        input(required="" type="text" name="cf_name")
+                        span Your name
+
+                +b.item-col
+                    .input.label-name
+                        input(required="" type="text" name="cf_name")
+                        span Your E-Mail
+
+                +b.item-col
+                    .input.label-name
+                        textarea(required="" name="cf_message" rows="1" id="autosize-example" style="overflow: hidden; word-wrap: break-word; height: 36px;")
+                        span Message
+
+                +b.btn-b-wrapper
+                    +b(button).btn-wrap.__blue
+                        +e.link.pop-up-btn send
+
+

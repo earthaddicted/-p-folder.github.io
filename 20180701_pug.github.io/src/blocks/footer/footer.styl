@@ -1,0 +1,67 @@
+.footer
+	background-color #fff
+	text-align left
+	padding 0
+	color: #090909
+	width 100vw
+	
+	.section-wrapper
+		position relative
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		max-width 1170px
+		margin: auto
+		padding 40px 20px 20px
+		scroll-behavior: smooth
+		-webkit-overflow-scrolling: touch
+		
+		@media screen and (max-width: 720px)
+			flex-direction column
+
+	&-wrapper
+
+	.menu
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		flex-wrap wrap
+		
+		@media screen and (max-width: 768px)
+			justify-content: space-between
+			padding-left 0
+
+		&__item
+			min-width 30%
+
+		&__link
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex
+			color #25c8f1
+			font-size: 14px
+			font-weight: 700
+			text-transform: uppercase
+			margin-right 10px
+			padding 14px 0
+			word-wrap: normal
+
+.rights,
+.contacts {
+	display block
+	color #090909
+	font-size 14px
+	font-weight 400
+	max-width 360px
+	padding 20px 0 30px
+}
+
+.rights {
+	max-width 243px
+}

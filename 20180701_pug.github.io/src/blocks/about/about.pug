@@ -1,0 +1,48 @@
+mixin b-about(data)
+    +b.w-half
+        H1 Lorem ipsum dolor sit amet
+
+        +b.btn-b-wrapper
+            +b(button).btn-wrap.__blue
+                +e.link(href="/") Browse
+
+        +b.ancor.pop-up-btn.ancor-contact(data-item="contact") Get in touch
+
+    +b.w-half
+        if data.section
+            +b('img').img-bg(src=data.section.bg)
+
+mixin b-about-page(data)
+    +b.w-half
+        H1 About
+
+        +b.text-wrapper
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae beatae, dolore, tempora adipisci magnam atque nostrum suscipit iusto, harum animi mollitia impedit tempore culpa. Rem laudantium voluptas, dicta iure officia.
+
+    +b.w-half
+        if data.section
+            +b('img').img-bg(src=data.section.aboutPageBg)
+
+mixin b-solutions-about-page(data)
+    +b.w-half
+        +b.block-multiple-wrapper
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat esse veniam veritatis beatae hic, dignissimos soluta fugiat, consequuntur quia possimus sequi ipsam similique totam ipsum velit eius nam doloremque vel!
+
+            p    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dolorum minima qui, ipsum, itaque consequuntur ullam cumque ipsa voluptas. Maiores quaerat laudantium inventore voluptates eos sint repellat fuga reiciendis laborum!
+
+            p    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quasi eaque provident assumenda molestias cupiditate perspiciatis, non, autem qui recusandae ea necessitatibus accusantium maxime soluta placeat voluptatem, illo minus est!
+
+    +b.w-half
+        .special-block-s
+            H2 Ipsum dolor
+
+            H3 Quaerat
+
+            ul.ul-list
+                li Lorem ipsum
+                li  Quaerat esse veniam
+                li Ratione quasi
+                li Guaerat esse
+                li Lorem ipsum dolor
+
+

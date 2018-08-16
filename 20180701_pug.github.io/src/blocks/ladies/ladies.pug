@@ -1,0 +1,14 @@
+mixin b-leaders(data)
+    H1 Ladies
+
+    +b.block-multiple-wrapper
+        if data.leaders
+            each item in data.leaders
+                +b.block-col-item
+                    +b.img-b
+                        img(src=item.personImg)
+
+                    +b.text-b
+                        +b('h3')= item.personName
+                        +b('span').title-b= item.personPosition
+                        +b('span')= item.personDescription

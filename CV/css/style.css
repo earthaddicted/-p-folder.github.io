@@ -5,7 +5,6 @@
 }
 
 body {
-/* background: rgb(189, 144, 170); */
     background: rgb(93, 157, 152);
 }
 
@@ -25,7 +24,7 @@ a {
 h1 {
     margin: 10px 0;
     font-family: 'Satisfy', cursive;
-    font-size: 8vw;
+    font-size: 70px;
     text-align: center;
     color: rgb(147, 189, 144);
 }
@@ -640,14 +639,25 @@ section {
 }
 
 .skills-item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    position: relative;
     height: 100px;
     width: 100px;
-    position: relative;
+    padding: 0 10px;
     cursor: pointer;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     animation: dropdown 1s none, swing 1s .8s ease;
     transition: transform .5s, color .5s ease-in-out;
+}
+
+.skills-item img {
+    max-width: 100%;
+    width: auto;
 }
 
 .figure {
@@ -795,12 +805,12 @@ to {
     transition: transform .5s ease-in-out;
 }
 
-.caption-link:hover img {
+/*.caption-link:hover img {
     transform: translateX(50%);
     z-index: 0;
-}
+}*/
 
-.caption-link::before,
+/*.caption-link::before,
 .caption-link::after {
     position: absolute;
     z-index: -1;
@@ -834,7 +844,7 @@ to {
 .caption-link:hover::after {
     transform: translateX(0);
     z-index: 2;
-}
+}*/
 /* ----- PROJECTS end -----*/
 
 /* ----- FOOTER -----*/

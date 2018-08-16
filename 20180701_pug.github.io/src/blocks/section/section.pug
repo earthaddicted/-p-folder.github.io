@@ -1,0 +1,185 @@
+//- mixins popup
+mixin b-contacts-thanks(data)
+    +b.popup-block.popup-block__thanks
+        +b.popup-item
+            +e.wrapper
+                +b.close
+                +b.popup-content
+                    H1 Thank you!
+                    +e.wrapper.contacts-form
+                        form(action="")
+                            +b.item-col
+                                p    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sapiente vitae dolorem omnis perferendis at quisquam ad alias consequatur hic incidunt corrupti officiis consequuntur sed cupiditate, aspernatur nam voluptates, dolore.
+
+                            +b.btn-b-wrapper
+                                +b(button).btn-wrap.__purple
+                                    +e.link.close-btn Close
+
+
+mixin b-contacts-popup(data)
+    +b.popup-block.popup-block__contact
+        +b.popup-item
+            +e.wrapper
+                +b.close
+                +b.popup-content
+                    H1 Contact us
+                    +e.wrapper.contacts-form
+                        form(action="")
+                            +b.item-col
+                                .input
+                                    input(required="" type="text" name="cf_name")
+                                    span Your name
+
+                            +b.item-col
+                                .input
+                                    input(required="" type="text" name="cf_name")
+                                    span Your E-Mail
+
+                            +b.item-col
+                                .input
+                                    textarea(required="" name="cf_message" rows="1" id="autosize-example" style="overflow: hidden; word-wrap: break-word; height: 36px;")
+                                    span Message
+
+                            +b.btn-b-wrapper
+                                +b(button).btn-wrap.__blue
+                                    +e.link(href="/") send
+
+
+mixin b-solutions-popup(data)
+    +b.popup-block.popup-block__solutions
+        +b.popup-item
+            +e.wrapper
+                +b.close
+                +b.popup-content
+                    H1 lorem ipsum
+
+                    +b('p')  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio est sed fugit hic cum blanditiis ea, impedit explicabo, autem dolore expedita amet! Maiores sequi temporibus, mollitia earum rem provident repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, neque culpa eligendi labore distinctio dicta facilis. Deserunt quae debitis odit, sint labore consectetur inventore iusto deleniti! Odio debitis explicabo, iste!
+
+                    +b('p') Deserunt quae debitis odit, sint labore consectetur inventore iusto deleniti! Odio debitis explicabo, iste!
+
+                    +b.block-row
+                        +b.btn-wrap.__purple.pop-up-btn
+                        +b.btn-b-wrapper
+                            +b(button).btn-wrap.__blue
+                                +e.link(href="/") Next
+
+
+mixin b-play-popup(data)
+    +b.popup-block.popup-block__play
+        +b.popup-item
+            +e.wrapper
+                +b.close
+                +b.popup-content
+                    H2 Earum
+                    .video-block
+                       iframe(type='text/html' width='auto' height='auto'
+                       src='https://www.youtube.com/embed/t99KH0TR-J4' frameborder='0')
+
+                    +b.block-row
+                        +b.btn-b-wrapper
+                            +b(button).btn-wrap.__purple
+                                +e.link Deserunt
+
+                        +b.btn-b-wrapper
+                            +b(button).btn-wrap.__blue
+                                +e.link Next
+
+
+mixin b-contacts-only-form-classes-popup(data)
+    +b.popup-block.popup-block__contact
+        +b.popup-item
+            +e.wrapper
+                +b.close
+                +b.popup-content
+                    H1 Contact us
+                    +b#form_1_container.form_wrapper.form_1_wrapper
+                            +b('form')#form_1(onsubmit="submitForm('#form_1', '1'); return false;" novalidate="")
+                               .form_field_wrapper.form_field_single_text.form_field_wrapper_1.form_field_required
+                                input(name="form_data[1]" value=""  type="text" )#form_data_1
+
+                                label(for="form_data_1") Your name
+
+                                p.form_error
+
+                            +b.form_field_wrapper.form_field_email.form_field_wrapper_1.form_field_required
+                                input(name="form_data[2]" value=""  type="email" )#form_data_2
+
+                                label(for="form_data_2") Your E-Mail
+
+                                p.form_error
+
+                            +b.form_field_wrapper.form_field_multiple_text.form_field_wrapper_1.form_field_required
+                                .input
+                                    textarea(required="" name="form_data[3]" rows="1" id="autosize-example form_data_3" style="overflow: hidden; word-wrap: break-word; height: 36px;")
+
+                                    label(for="form_data_3") Message
+
+                                    p.form_error
+
+                            +b#form_1_submit_container.submit_wrapper.submit_1_wrapper
+                                button(type="submit") Send
+
+                            +b('div')#form_1_success_container.success_wrapper.success_1_wrapper
+                                |  Thank You!
+
+
+mixin b-vacancy-popup(data)
+    +b.popup-block.popup-block__vacancy
+        +b.popup-item
+            +e.wrapper
+                +b.close
+                +b.popup-content
+                    H1 UI/UX Designer
+
+                    +b('p') In our company you will be able to create real masterpieces and implement the boldest ideas!
+
+                    +b('h3') The essence of the work:
+
+                    +b('ul').ul-list
+                        li Сreation of an advertising product (using color, illustration, graphics, photography, animation, etc.);
+                        li development of corporate style for projects (logo, corporate colors, "chips");
+                        li Сreation of collages, illustrations, banners for media companies;
+                        li Еhe production of animation or video advertising;
+
+                    +b('h3') The essence of the work:
+
+                    +b('ul').ul-list
+                        li Decent salary level;
+                        li Flexible schedule (but full employment: deadlines and TK is sacred);
+                        li Professional growth and the opportunity to learn and develop;
+                        li Comfortable workplace in a technically equipped office;
+                        li A team of professionals and a young friendly team.
+
+
+                    +b.block-row
+                        +b.btn-wrap.__purple.pop-up-btn
+                        +b.btn-b-wrapper
+                            +b(button).btn-wrap.__blue
+                                +e.link(href="/") Respond to a vacancy
+
+mixin b-contacts-services(data)
+    +b.w-half.contacts-services
+        H2 Our Services
+
+        +e.wrapper
+            +b.btn-b-wrapper
+                +b(button).btn-wrap.__purple
+                    +e.link.a(href="/") Browse
+
+    +b.w-half
+        H2 Contacts
+
+        +e.wrapper
+            +b.btn-b-wrapper
+                +b(button).btn-wrap.__blue
+                    +e.link.pop-up-btn Get in touch
+
+
+mixin b-contacts-small(data)
+    +b.w-half
+        H2 Contacts
+
+        +e.wrapper
+            +b.btn-b-wrapper
+                +b(button).btn-wrap.__blue
+                    +e.link.pop-up-btn Get in touch

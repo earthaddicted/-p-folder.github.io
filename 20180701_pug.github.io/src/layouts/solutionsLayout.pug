@@ -1,0 +1,24 @@
+extends root
+
+block content
+	+header({header: globals.header, menu: globals.menu})
+
+	main.main.solutions-page
+		block main
+			+b('section').section._light
+				+e.wrapper
+					+b-breadcrumbs()
+
+			+b('section').section._dark._solutions
+				+e.wrapper.section__wrapper-col
+					+b-solutions({section: globals.section})
+
+				+e.wrapper.section__wrapper-l.decor-solutions
+					+b-solutions-multiple()
+
+			+b('section').section._light._contacts.contacts-services
+				+e.wrapper
+					+b-contacts-services()
+					+b-contacts-popup()
+
+	+footer({footer: globals.footer, menu: globals.menu})

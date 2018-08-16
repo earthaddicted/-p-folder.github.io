@@ -1,0 +1,19 @@
+extends root
+
+block content
+	+header({header: globals.header, menu: globals.menu})
+	main.main.about-page.light-header
+		block main
+			+b('section').section._light._about-page
+				+e.wrapper
+					+b-about-page({section: globals.section})
+
+				+e.wrapper.section__wrapper-l.about-page__solutions
+					+b-solutions-about-page()
+
+			+b('section').section._light._contacts
+				+e.wrapper
+					+b-contacts-small(data)
+					+b-contacts-popup(data)
+
+	+footer({footer: globals.footer, menu: globals.menu})

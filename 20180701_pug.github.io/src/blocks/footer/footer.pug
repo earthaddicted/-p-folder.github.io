@@ -1,0 +1,15 @@
+mixin footer(data)
+	+b('footer').footer
+		+b.section-wrapper
+			+b.w-half
+				+b.rights= data.footer.rights
+					+b.contacts(href=data.footer.url)= data.footer.mail
+
+			+b.w-half
+				if data.menu
+					+b('ul').menu
+						each item in data.menu
+							+e.item
+								+e.link(href=item.url)= item.title
+
+

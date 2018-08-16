@@ -1,0 +1,63 @@
+mixin b-solutions(data)
+    H1 Veritatis obcaecati
+
+    +b('h3') Doloremque animi
+
+    +b.two-col
+        +b.w-half
+            +b('p') Aut, optio iste:
+
+            +b('p') Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore asperiores tenetur autem blanditiis, perspiciatis quia. Aut, optio iste ad soluta commodi eaque! Magnam laudantium rerum omnis dignissimos quae expedita hic! Dolorum, officiis, nobis. Doloremque animi pariatur delectus cumque eius dolorem veritatis obcaecati omnis totam odit nam, unde possimus recusandae odio dolore, blanditiis ullam excepturi asperiores nisi fuga laboriosam repellendus sint.
+
+            +b.ancor.pop-up-btn.ancor-play Play video
+
+        +b.w-half
+            if data.section
+                +b('img').img-bg(src=data.section.solution)
+
+mixin b-solutions-multiple(data)
+    +b.block-multiple-wrapper
+        +b.block-col-item
+            +b('h3') Lorem ipsum
+            +b('p')  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugiat temporibus non iure ab nam repellendus hic deserunt quo, ullam quas placeat dolore autem! Quaerat quam, reprehenderit vel. Neque, molestiae?
+            +b.btn-b-wrapper
+                +b.btn-wrap.__purple.pop-up-btn
+                    +e.link More
+
+                +b.ancor.pop-up-btn.ancor-play Play video
+
+        +b.block-col-item
+            +b('h3') Lorem ipsum
+            +b('p')  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugiat temporibus non iure ab nam repellendus hic deserunt quo, ullam quas placeat dolore autem! Quaerat quam, reprehenderit vel. Neque, molestiae?
+            +b.btn-b-wrapper
+                +b.btn-wrap.__purple.pop-up-btn
+                    +e.link More
+
+                +b.ancor.pop-up-btn.ancor-play Play video
+
+        +b.block-col-item
+            +b('h3') Lorem ipsum
+            +b('p')  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugiat temporibus non iure ab nam repellendus hic deserunt quo, ullam quas placeat dolore autem! Quaerat quam, reprehenderit vel. Neque, molestiae?
+            +b.btn-b-wrapper
+                +b.btn-wrap.__purple.pop-up-btn
+                    +e.link More
+
+                +b.ancor.pop-up-btn.ancor-play(href="/") Play video
+
+        +b.block-col-item
+            +b('h3') Lorem ipsum
+            +b('p')  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugiat temporibus non iure ab nam repellendus hic deserunt quo, ullam quas placeat dolore autem! Quaerat quam, reprehenderit vel. Neque, molestiae?
+            +b.btn-b-wrapper
+                +b.btn-wrap.__purple.pop-up-btn
+                    +e.link More
+
+                +b.ancor.pop-up-btn.ancor-play Play video
+
+        +b.block-col-item
+            +b('h3') Lorem ipsum
+            +b('p')  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugiat temporibus non iure ab nam repellendus hic deserunt quo, ullam quas placeat dolore autem! Quaerat quam, reprehenderit vel. Neque, molestiae?
+            +b.btn-b-wrapper
+                +b.btn-wrap.__purple.pop-up-btn
+                    +e.link More
+
+                +b.ancor.pop-up-btn.ancor-play Play video

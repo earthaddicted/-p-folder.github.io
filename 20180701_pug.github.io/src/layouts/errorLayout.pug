@@ -1,0 +1,12 @@
+extends root
+
+block content
+	+header({header: globals.header, menu: globals.menu})
+
+	main.main.error-page
+		block main
+			+b('section').section._dark._error
+				+e.wrapper.section__wrapper-col
+					+b-error(data)
+
+	//- +footer({footer: globals.footer, menu: globals.menu})

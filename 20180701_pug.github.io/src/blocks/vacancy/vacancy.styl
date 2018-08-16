@@ -1,0 +1,52 @@
+.vacancy-page
+    display -webkit-flex
+    display -moz-flex
+    display -ms-flex
+    display -o-flex
+    display flex
+    flex-direction column
+
+.section
+    &_vacancy
+        position relative
+        background url('../assets/svg/vacancy-bg.svg')
+        background-repeat no-repeat
+        background-position: 53% 0%
+        flex 2
+
+        .w-half
+            width 48%
+            margin-bottom 40px
+
+            &:nth-of-type(even)
+                margin-right 2%
+
+                @media screen and (max-width: 1024px)
+                    margin-right 1%
+
+
+            @media screen and (max-width: 720px)
+                width 100%
+                margin-right 0
+
+            &__wrapper
+                background-color: #f7f6ff
+                padding 20px
+                margin-right 0
+
+        .item-row
+            margin 0
+
+        .btn-wrap__link
+            margin 0 0 20px
+
+            @media screen and (max-width: 720px)
+                font-size: 20px;
+
+        h3
+            color: #0f1266
+
+        h4
+            color: #25c8f1
+            font-size: 24px
+            font-weight: 700

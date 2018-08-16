@@ -1,0 +1,14 @@
+mixin b-error(data)
+
+        +b.block-col-item
+            +b('img').col-bg(src='/assets/svg/404.svg')
+
+        +b.block-col-item.err-msg
+            h1 Oops!
+                br
+                | That page couldn’t be found.
+
+        +b.block-col-item
+            +b.btn-b-wrapper
+                +b(button).btn-wrap.__blue
+                    +e.link(href="index.html") Back me to home page

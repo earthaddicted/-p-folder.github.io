@@ -1,0 +1,30 @@
+extends main
+
+block main
+	+b('section').section._dark._about
+		+e.wrapper
+			+b-about({section: globals.section})
+
+	+b('section').section._light._adventures
+		+e.wrapper.section__wrapper-col
+			+b-advantages()
+
+	+b('section').section._light._interaction
+		+e.wrapper.section__wrapper-col
+			+b-interaction()
+
+	+b('section').section._dark._solutions
+		+e.wrapper.section__wrapper-col
+			+b-solutions({section: globals.section})
+			+b-solutions-popup()
+
+		+e.wrapper.section__wrapper-l.decor-solutions
+			+b-solutions-multiple()
+
+		+e.wrapper.section__wrapper-xl.section__wrapper-col.bg-clippath.decor-performance
+			+b-performance()
+
+	+b('section').section._light._contacts._contacts-main
+		+e.wrapper
+			+b-contacts()
+			+b-contacts-thanks()

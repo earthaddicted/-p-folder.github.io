@@ -1,0 +1,339 @@
+.section
+    &_solutions
+        position relative
+        // padding 60px 0 440px
+        padding 60px 0 10px
+        background url('../assets/svg/img-bg-special-s.svg')
+        background-color: #f7f6ff
+        background-repeat no-repeat
+        background-size cover
+        background-position 100% 100%
+        position relative
+
+        p
+            color: #dccaff
+            font-size: 14px
+            font-weight: 400
+            line-height: 22px
+
+        .img-bg
+            top: -214px
+            left: -10%
+            z-index 0
+            width: 200%
+
+            @media screen and (max-width: 1024px)
+                top: -100px
+                left: 10%
+                width: 204%
+
+            @media screen and (max-width: 720px)
+                width: 60%
+                position: relative
+                top: unset
+                right: -58px
+
+            @media screen and (max-width: 1023px)
+                width: 100%
+
+        .w-half
+            p
+                &:last-of-type
+                    padding-bottom 40px
+
+                    @media screen and (max-width: 720px)
+                        width 100%
+
+            &:first-of-type
+                width 75%
+
+                @media screen and (max-width: 1024px)
+                    width 60%
+
+                @media screen and (max-width: 720px)
+                    width 100%
+
+            &:last-of-type
+                width 25%
+
+                @media screen and (max-width: 1024px)
+                    width 30%
+
+                @media screen and (max-width: 720px)
+                    width 100%
+
+        .block-multiple-wrapper
+            margin-left 10px
+            // padding 80px 0 100px
+            padding 0 0 100px
+
+            @media screen and (max-width: 1024px)
+                padding: 0 0 20px
+
+            @media screen and (max-width: 760px)
+                margin-left 0
+                padding 0
+
+
+        .block-col-item
+            width 370px
+            background-color #522a9e
+            margin: 0px 10px 30px 16px
+            padding 40px
+            
+            @media screen and (max-width: 1150px)
+                width: 46%
+                padding: 40px 40px 20px
+
+            // @media screen and (max-width: 968px)
+            //  width 347px
+            //  padding: 20px
+
+            @media screen and (max-width: 760px)
+                width 290px
+                padding: 25px
+
+            .btn-b-wrapper
+                margin-left: -60px
+                display: flex
+                align-items: center
+                justify-content: flex-start
+
+                @media screen and (max-width: 968px)
+                    margin-left: -40px
+
+                @media screen and (max-width: 1023px)
+                    margin-left: 0
+
+                    .ancor-play
+                        &::before
+                            top: 47%;
+                            width: 32px;
+                            height: 32px;
+                            transform: translateY(-50%);
+
+            .btn-wrap
+                margin-left 0
+                margin-right 23px
+
+                &__link
+                    margin 40px 0
+
+                    @media screen and (max-width: 1023px)
+                        padding: 14px 30px
+.two-col
+    display flex
+    padding 20px 0 30px
+
+    @media screen and (max-width: 720px)
+        flex-direction: column
+    // position relative
+        
+
+.decor-solutions
+    &::after
+        content " "
+        display block
+        position absolute
+        width: 1005px
+        height: 377px
+        background-image url('../assets/svg/line-2.svg')
+        background-repeat no-repeat
+        bottom: -37px
+        left: -153px
+        background-size 100%
+        z-index -1
+        
+        @media screen and (max-width: 1023px)
+            bottom -116px
+            left -331px
+        
+/* solutions popup */
+.popup-block
+    display: none
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(63, 56, 135, 0.8);
+    z-index: 101
+    overflow: auto
+    overflow-y: scroll
+    visibility: hidden
+    -webkit-animation: fadeIn .5s
+    animation: fadeIn .5s
+    transition: opacity .7s
+    
+    &.visible-popup
+        display: block
+        visibility: visible
+        -webkit-animation: fadeIn .5s
+        animation: fadeIn .5s
+
+.popup-item
+    position: absolute
+    top: 50%
+    left: 50%
+    max-width: 790px
+    width: 100%
+    padding: 30px
+    margin: 50px auto
+    background-color #fff
+    z-index: 102
+    visibility: hidden
+    -webkit-animation: fadeIn 1s
+    animation: fadeIn 1s
+    transform: translate(-50%, -50%)
+    box-shadow: 0 0 70px rgba(16, 10, 82, 0.59)
+    color: #090909
+    
+    p
+        color: #090909
+    
+    @media screen and (max-width: 1023px)
+        top 0%
+        transform translate(-50%, 0%)
+        padding 20px
+        
+    @media screen and (max-width: 768px)
+        left 0%
+        transform translate(0%, 0%)
+
+    .btn-wrap__link
+        margin 0
+        box-shadow: 0 25px 35px -15px #c2b3e1 !important
+
+        @media screen and (max-width: 767px)
+            margin: 20px 0
+    h1,
+    h2
+        max-width 100% !important
+
+    h1
+        color: #0f1266
+        font-size: 48px
+        font-weight: 700
+        text-transform: unset
+        
+        @media screen and (max-width: 767px)
+            font-size: 36px
+    h2
+        font-size: 24px
+        font-weight: 700
+        line-height: 29px
+        text-transform: unset
+        max-width 100%
+
+    p
+        20px 0
+
+    .block-row
+        justify-content: space-between
+
+        @media screen and (max-width: 767px)
+            flex-direction column
+            align-items: flex-start
+
+        .ancor.ancor-play
+            margin-right 20px
+            margin: 20px 20px 0 40px
+
+            @media screen and (max-width: 767px)
+                margin: 20px 0 20px 40px
+
+    &__wrapper
+        position: relative
+        max-width: 790px
+        width: 790px
+        width: 100%
+        margin: 0 auto
+
+    .close
+        position: absolute
+        display: block
+        top: 0
+        right 0
+        cursor: pointer
+        z-index: 10
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 25px 35px -15px #c2b3e1;
+        border-radius: 2px;
+        background-image: url(../assets/svg/close.svg), linear-gradient(25deg, #eceafa 0%, #fff 100%);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+
+        @media screen and (max-width: 660px)
+            top -70px
+
+.popup-block__solutions
+    h1
+        color: #0f1266
+        margin-right 70px
+
+        @media screen and (max-width: 660px)
+            margin-right 0
+
+    h2
+        color: #090909
+
+    p
+        margin 0
+        padding 10px 0
+        color: #090909
+
+.popup-block.visible-popup .popup-item
+    visibility: visible
+    -webkit-animation: fadeIn 1s
+    animation: fadeIn 1s
+
+@-webkit-keyframes fadeIn
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+@keyframes fadeIn
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+
+.video-block
+    margin 40px auto
+    text-align center
+    
+    iframe
+        width 640px
+        height 390px
+        
+        @media screen and (max-width: 660px)
+            width 340px
+            height 190px
+            
+        @media screen and (max-width: 660px)
+            width 280px
+            height 140px
+            
+
+.solutions-page
+    overflow hidden
+    
+    .section_solutions
+        background-image: linear-gradient(180deg, #42178c 0%, #413b85 100%)
+        margin-top 100px
+        padding: 10px 0
+        
+        .block-multiple-wrapper
+            padding-top 0
+        
+        .section__wrapper:first-of-type
+            margin-top -150px
+            
+            @media screen and (max-width: 1024px)
+                margin-top -120px
+            
+            h1
+                color: #0f1266
+
+
+
+

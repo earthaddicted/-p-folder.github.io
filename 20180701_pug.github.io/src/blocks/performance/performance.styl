@@ -1,0 +1,125 @@
+.section
+	&_performance
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+
+
+.copy-data
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	position absolute
+	// top -60px
+	top -40px
+	left 35px
+	left 25px
+	color rgba(40, 235, 255, .08)
+	// font-size: 100px
+	font-size: 80px
+	font-weight: 900
+	
+
+	@media screen and (max-width: 767px)
+		top -30px
+		font-size 60px
+
+	&__num
+		white-space nowrap
+		
+		@media screen and (max-width: 767px)
+			font-size 60px
+
+.number-item
+	position relative
+	margin-right 8%
+	margin-bottom 80px
+
+	&:nth-of-type(2)
+		.copy-data
+			left 12px
+
+	&__num
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		color: #28ebff
+		// font-size: 90px
+		font-size: 80px
+		font-weight: 400
+		
+		@media screen and (max-width: 767px)
+			font-size: 56px;
+		
+		span
+			display block
+			margin-right 10px
+			white-space: nowrap;
+
+	&__test
+		color: #25c8f1
+		font-size: 24px
+		font-weight: 400
+
+.section__wrapper.bg-clippath
+	margin-bottom 600px
+	
+	@media screen and (min-width: 2400px)
+		padding-bottom 260px
+
+	@media screen and (min-width: 1700px)
+		padding-bottom 382px
+
+	@media screen and (max-width: 1200px)
+		margin-bottom 990px
+		margin-bottom 460px
+		
+	@media screen and (max-width: 1024px)
+		margin-bottom 370px
+		
+	@media screen and (max-width: 767px)
+		margin-bottom 300px
+		padding-top 80px
+		
+	@media screen and (max-width: 600px)
+		margin-bottom 177px
+
+.decor-performance
+	// position relative
+
+	&::after
+		content " "
+		display block
+		position absolute
+		width 2005px
+		height 660px
+		background-image url('../assets/svg/line-4.svg')
+		background-repeat no-repeat
+		bottom -320px
+		right -200px
+		background-size 100%
+
+		@media screen and (min-width: 1700px)
+			bottom: -150px
+			padding-bottom 230px
+
+		@media screen and (max-width: 812px)
+			width: 945px;
+			height: 360px;
+			bottom: -320px;
+			left: unset;
+			right: -180px;
+			// -webkit-background-size: 100% 100%;
+			background-size: cover
+			right: -133px
+			bottom: -211px
+			
+			@media screen and (max-width: 600px)
+				bottom -131px
+				right -126px

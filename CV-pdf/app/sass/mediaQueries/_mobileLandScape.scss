@@ -1,0 +1,52 @@
+@media only screen and (max-width: 700px) {
+	.section-wrapper {
+		padding: 40px 0;
+	}
+
+	.block-row__contacts {
+		flex-direction: column;
+
+		a {
+			margin: 10px 0;
+
+			.fa {
+				width: 40px;
+				font-size: 40px;
+			}
+		}
+	}
+
+	.skills-block {
+		max-width: 100%;
+		width: auto;
+		margin-right: 0;
+	}
+
+	.two-col {
+		flex-direction: column;
+
+		.block-col {
+			width: 100%;
+			margin: 20px 0 0;
+			padding: 0 20px;
+		}
+	}
+
+	.wrapper-img {
+		margin: auto;
+	}
+
+	.examples-sign {
+		display: block;
+	    margin: -30px auto 0;
+	    text-align: center;
+	}
+
+	.block-col__experience {
+		margin: 40px 0;
+
+		.two-col {
+			flex-direction: row;
+		}
+	}
+}

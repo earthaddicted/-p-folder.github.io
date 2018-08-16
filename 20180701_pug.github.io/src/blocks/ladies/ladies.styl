@@ -1,0 +1,72 @@
+.section
+	&_leaders
+		background url('../assets/svg/line-1.svg'), url('../assets/svg/line-2.svg')
+		background-repeat no-repeat
+		background-position: 41% 0%, 30% 81%
+
+		h1
+			@media screen and (max-width: 720px)
+				padding: 0 20px
+
+		.section__wrapper
+			@media screen and (max-width: 720px)
+				padding: 20px 0
+
+		.block-col-item
+			width 30%
+			max-width 370px
+			margin 0 auto 40px
+			overflow hidden
+
+			@media screen and (max-width: 1024px)
+				width 48%
+
+			@media screen and (max-width: 720px)
+				width 100%
+				max-width 320px
+				margin 0 auto 30px
+
+		.img-b
+			position relative
+			width: 294px
+			height: 294px
+			z-index 1
+			margin auto
+			margin-bottom -110px
+
+			@media screen and (max-width: 720px)
+				width: 280px
+				height: 280px
+				margin-bottom -60px
+				text-align center
+
+			img
+				max-width 100%
+
+		.text-b
+			display: flex
+			flex-direction: column
+			background url('../assets/svg/small-bg.svg')
+			position relative
+			min-height 370px
+			padding 100px 40px 40px
+			background-repeat no-repeat
+			background-size cover
+			height 100%
+
+			@media screen and (max-width: 720px)
+				padding  70px 20px 20px
+
+			h3
+				display block
+				color: #0f1266
+				padding 10px 0 0
+
+			p
+				padding 10px 0
+
+			.title-b
+				color: #25c8f1
+				font-size: 24px
+				font-weight: 400
+				padding 0 0 20px

@@ -1,0 +1,27 @@
+mixin b-performance(data)
+	H1 Dolor sit amet
+
+	+b.block-multiple-wrapper
+		+b.number-item
+			+e.num 9946
+				+b.copy-data
+					+e.num 9946
+			+e.test Dolor sit 
+				br
+				| lorem ipxum
+
+		+b.number-item
+			+e.num
+				+b('span') 99.1234
+				|  PS
+				+b.copy-data
+					+b('span') 99.1234
+					|   PS
+
+			+e.test Amequs
+
+		+b.number-item
+			+e.num 987654
+				+b.copy-data
+					+e.num 987 654
+			+e.test per Anum

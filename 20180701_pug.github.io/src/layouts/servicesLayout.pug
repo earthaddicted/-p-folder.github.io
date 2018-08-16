@@ -1,0 +1,22 @@
+extends root
+
+block content
+	+header({header: globals.header, menu: globals.menu})
+
+	main.main.services-page
+		block main
+			+b('section').section._light
+				+e.wrapper
+					+b-breadcrumbs()
+
+			+b('section').section._light
+				+e.wrapper.section__wrapper-col
+					+b-services()
+
+			+b('section').section._light._contacts.contacts-services
+				+e.wrapper
+					+b-contacts-services()
+					+b-contacts-popup(data)
+					+b-play-popup(data)
+
+	+footer({footer: globals.footer, menu: globals.menu})

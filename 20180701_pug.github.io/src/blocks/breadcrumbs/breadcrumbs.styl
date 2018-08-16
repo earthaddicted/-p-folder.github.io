@@ -1,0 +1,53 @@
+/* ======= breadcrums ======= */
+
+.breadcrumbs-block
+	&__list
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		align-items center
+		padding-left 0
+
+		@media screen and (max-width: 1024px)
+			flex-wrap wrap
+
+	&__item
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		position relative
+		margin-bottom 20px
+
+		a
+			color: #25c8f1
+			font-size: 12px
+			font-weight: 700
+			text-transform: uppercase
+			cursor pointer
+
+		&:not(:last-of-type)
+			&::after
+				content " "
+				display block
+				position relative
+				width: 21px
+				height: 3px
+				background-color: #25c8f1
+				margin-top 6px
+				margin 6px 24px 0
+
+		&:last-of-type
+			a
+				color: #090909
+				font-size: 12px
+				font-weight: 400
+				text-transform: uppercase
+				cursor: not-allowed
+				pointer-events: none
+
+
+/* ======= breadcrums END ======= */

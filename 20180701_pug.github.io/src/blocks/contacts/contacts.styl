@@ -1,0 +1,362 @@
+.section
+    &_contacts
+        margin-top 0
+        background-color: #f7f6ff
+        overflow hidden
+
+        h2
+            margin 40px 0 20px
+
+        .btn-wrap__link
+            margin: 0 0 20px;
+
+        &-main
+            margin-top: -200px
+            background-color: #f7f6ff
+            padding-bottom 60px
+
+            @media screen and (min-width: 2400px)
+                margin-top: -473px;
+
+            @media screen and (min-width: 1700px)
+                margin-top: -300px
+
+            @media screen and (max-width: 1200px)
+                margin-top: -130px
+                padding-bottom 20px
+
+        form
+            position relative
+            z-index 0
+
+.item-row
+    display -webkit-flex
+    display -moz-flex
+    display -ms-flex
+    display -o-flex
+    display flex
+    margin 40px 0
+    
+    @media screen and (max-width: 720px)
+        flex-direction column
+
+.block-left-s
+    margin-right 47px
+    
+    @media screen and (max-width: 1024px)
+        margin-right 40px
+
+.block-right-l
+    color: #090909
+    font-size: 24px
+    font-weight: 400
+    max-width 350px
+    width 100%
+
+    a
+        color: #090909
+
+    p
+        margin 0
+
+    span,
+    label
+        display block
+        padding 8px 0
+        font-size: 14px
+
+.contacts-form
+    max-width 468px
+
+    .btn-wrap
+        justify-content: flex-end
+        
+        &__link
+            margin 0 0 20px
+            padding 15px 32px
+
+    .item-col
+        position relative
+        padding: 15px 0 42px
+        padding: 16px 0 60px
+        
+        @media screen and (max-width: 917px)
+            padding: 36px 0 50px
+            // padding: 16px 0 60px
+
+    textarea
+        resize: none
+        -webkit-appearance: textarea
+
+    input,
+    textarea
+        width 100%
+        max-width 468px
+        background transparent
+        border: 3px solid transparent
+        color: #090909
+        font-size: 24px
+        font-weight: 400
+        z-index 0
+
+        &:focus
+            border-bottom 3px solid #25c8f1 !important
+
+    .input
+        width: 100%
+        position: relative
+        z-index: 1000
+        background: none
+        border: 0
+        font-size: 24px
+        color: #0f1266
+        font-size: 24px
+        font-weight: 400
+        display: inline-block
+        position: relative
+        -webkit-transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+        -moz-transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+        -o-transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+        transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+
+        input,
+        textarea
+            position: relative
+            z-index: 1000
+            background: none
+            border: 0
+            font-size 24px
+            border-bottom 3px solid #dccaff
+            font-family: 'Montserrat', sans-serif
+            
+        span,
+        label
+            z-index: 500
+            position: absolute
+            left: 0
+            top: 0
+            font-size: 24px
+            -moz-user-select: none
+            -webkit-user-select: none
+            -khtml-user-select: none
+            user-select: none
+            color: #090909
+
+.active--input
+    top: -30px !important
+    -webkit-transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    -moz-transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    -o-transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    font-size: 14px !important
+
+.hide--input
+    top: 0 !important
+    -webkit-transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    -moz-transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    -o-transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    transition: all 0.2s cubic-bezier(.25, .1, .25, 1);
+    font-size: 24px !important
+
+
+/* popup form style */
+.popup-block__contact
+    .popup-item
+        max-width: 528px
+        width 528px
+
+        @media screen and (max-width: 768px)
+            left 50%
+            transform translate(-50%, 0%)
+            max-width: 320px;
+            width 320px
+
+        .close
+            top: -14px
+
+        h2
+            font-size: 36px
+
+        &__wrapper
+            max-width: 528px
+
+// contacts page
+.contacts-page
+    display -webkit-flex
+    display -moz-flex
+    display -ms-flex
+    display -o-flex
+    display flex
+    flex-direction: column
+    justify-content: flex-start
+    background url('../assets/svg/contacts-bg.svg')
+    background-repeat no-repeat
+    background-size cover
+    // background-position  100% 0%
+    background-position 69% 43%
+
+    @media screen and (max-width: 1024px)
+        background-position: 100% 50%
+
+    @media screen and (max-width: 720px)
+        background-position: 72% 0%
+
+    .section_contacts
+        background-color transparent
+
+.contacts-services
+
+    .section__wrapper
+        padding 0 20px
+        
+
+        @media screen and (max-width: 720px)
+            padding 0
+            
+        .btn-wrap__link
+            margin 0 0 40px
+
+        .w-half
+            width 50vw
+
+            @media screen and (max-width: 720px)
+                width 100%
+                padding 20px
+
+            h2,
+            .w-half__wrapper
+                position relative
+                z-index 1
+
+        .w-half.contacts-services
+            position relative
+
+            @media screen and (max-width: 720px)
+                overflow hidden
+            &::after
+                content " "
+                display block
+                position absolute
+                background-color: #e6e3f9
+                top 0
+                right 0vw
+                width 50vw
+                height 300%
+
+                @media screen and (max-width: 720px)
+                    width 100vw
+
+.popup-block__thanks
+    .popup-item
+        max-width: 472px
+
+        a
+            color: #090909
+
+    .btn-wrap
+        justify-content center
+
+        // &__link
+        //     margin-bottom 20px
+
+
+// ======= special contacts form Artem classes
+
+.form_field_wrapper
+    position relative
+    padding: 15px 0 42px
+    width: 100%
+    position: relative
+    z-index: 1000
+    background: none
+    border: 0
+    font-size: 24px
+    color: #0f1266
+    font-size: 24px
+    font-weight: 400
+    display: inline-block
+    position: relative
+    -webkit-transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+    -moz-transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+    -o-transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+    transition: all 0.5s cubic-bezier(.25, .1, .25, 1)
+    
+    @media screen and (max-width: 917px)
+        padding: 36px 0 50px
+
+
+    textarea
+        resize: none
+        -webkit-appearance: textarea
+
+    input,
+    textarea
+        width 100%
+        max-width 468px
+        background transparent
+        border: 3px solid transparent
+        color: #090909
+        font-size: 24px
+        font-weight: 400
+        z-index 0
+        position: relative
+        z-index: 1000
+        background: none
+        border: 0
+        font-size 24px
+        border-bottom 3px solid #dccaff
+        font-family: 'Montserrat', sans-serif
+
+        &:focus
+            border-bottom 3px solid #25c8f1 !important
+
+    span,
+    label
+        z-index: 500
+        position: absolute
+        left: 0
+        top: 7px
+        font-size: 24px
+        -moz-user-select: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        user-select: none
+        color: #090909
+        font-family: 'Montserrat', sans-serif
+
+.submit_wrapper
+    button
+        margin: 20px 0
+        padding: 15px 35px
+        font-size: 24px
+        font-weight: 700
+        -webkit-border-radius: 2px
+        border-radius: 2px
+        cursor: pointer
+        color: #0f1266
+        -webkit-background-size: 300% 100%
+        background-size: 300% 100%
+        moz-transition: all 0.4s ease-in-out
+        -o-transition: all 0.4s ease-in-out
+        -webkit-transition: all 0.4s ease-in-out
+        transition: all 0.4s ease-in-out
+        background-image: linear-gradient(45deg, #25c8f1 0%, #28ebff 100%)
+        box-shadow: 0 25px 35px -15px #c2b3e1
+        border 0px solid transparent
+        font-family: 'Montserrat', sans-serif
+
+.success_wrapper,
+.form_error
+    display none
+
+
+.contacts-services ~ .w-half
+    padding-left 30px
+    
+.form_field_error
+    input,
+    textarea
+        border-bottom 3px solid rgba(215, 40, 40, 0.9) !important
+        
+        &:focus
+            border-bottom 3px solid rgba(215, 40, 40, 0.9) !important
