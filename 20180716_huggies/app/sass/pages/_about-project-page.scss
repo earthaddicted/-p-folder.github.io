@@ -42,6 +42,11 @@
 .col-video {
 	position: relative;
 
+	video {
+		width: 100%;
+	}
+	margin: 0 auto;
+
 	&::before {
 		content: ' ';
 		display: block;
@@ -55,6 +60,7 @@
 		cursor: pointer;
 	}
 }
+
 
 .product-page {
 	font-size: 16px;
@@ -101,12 +107,33 @@
 			background-image: none;
 		}
 
+
+
 		&::after {
 			background-image: url('../../images/toys/plane.png');
 		}
 
-		.col-video::before {
-			background: url('../../images/icons/play-btn-blue.png');
+		// .col-video::before {
+		// 	background: url('../../images/icons/play-btn-blue.png');
+		// }
+
+		.playpause {
+		    background-image:url('../../images/icons/play-btn-blue.png');
+		    background-repeat:no-repeat;
+		    width:50%;
+		    height:50%;
+		    position:absolute;
+		    left:0%;
+		    right:0%;
+		    top:0%;
+		    bottom:0%;
+		    margin:auto;
+		    background-size:contain;
+		    background-position: center;
+
+		    width: 122px;
+		    height: 122px;
+		    cursor: pointer;
 		}
 	}
 
@@ -115,17 +142,39 @@
 			color: #f191bc;
 		}
 
+
+
 		.btn-wrapper a,
 		.btn-wrapper span {
 			background-color: #f191bc;
 			background-image: none;
 		}
-		.col-video::before {
-			background: url('../../images/icons/play-btn-pink.png');
-		}
+		// .col-video::before {
+		// 	background: url('../../images/icons/play-btn-pink.png');
+		// }
 
 		&::after {
 			background-image: url('../../images/toys/doll.png');
+		}
+
+
+		.playpause {
+			background-image:url('../../images/icons/play-btn-pink.png');
+			background-repeat:no-repeat;
+			width:50%;
+			height:50%;
+			position:absolute;
+			left:0%;
+			right:0%;
+			top:0%;
+			bottom:0%;
+			margin:auto;
+			background-size:contain;
+			background-position: center;
+
+			width: 122px;
+			height: 122px;
+			cursor: pointer;
 		}
 	}
 }
@@ -500,7 +549,9 @@ a {
     }
 
 	label {
+
 		white-space: nowrap;
+		margin-right: 10px;
 	}
 
 	input {
@@ -510,7 +561,7 @@ a {
 	input,
 	select {
 		width: 100%;
-		margin: 0 0 0 10px;
+		margin: 0 10px 0 0;
 		border-radius: 16px;
 		border: 1px solid #ccc;
 		background-color: #fff;
@@ -918,9 +969,15 @@ label.custom-file-upload {
 
 // step 3
 .data-item {
+	padding: 0 0 0;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+
 	input {
 		padding: 8px 27px;
 		line-height: normal;
+		order: 2;
 	}
 	&:placeholder {
 		color: #ccc;
@@ -928,6 +985,50 @@ label.custom-file-upload {
 		font-weight: 700;
 		font-variant: small-caps;
 	}
+}
+
+.label-contacts {
+	visibility: hidden;
+	order: 1;
+	transition: .2s ease-in-out;
+	padding-left: 27px;
+}
+
+.step-page input[type="text"]:focus ~ .label-contacts,
+.step-page input[type="email"]:focus ~ .label-contacts {
+		visibility: visible;
+		transition: .2s ease-in-out;
+	}
+
+.data-item__phone {
+	padding: 10px 0 0;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+
+	select,
+	input {
+		width: auto;
+	}
+
+	.select-wrapper {
+		width: auto;
+		order: 1;
+	}
+
+	input {
+		order: 2;
+	}
+}
+
+// .step-page select[name="phone"] {
+//     width: 69px;
+//     margin-right: 5px;
+// }
+
+.step-page input[type="text"] {
+	margin-left: 15px;
+	padding-right: 2px !important;
 }
 
 .user-data {
@@ -941,6 +1042,7 @@ label.custom-file-upload {
 	}
 
 	&__data {
+		margin-top: -15px;
 		margin-right: 20px;
 	}
 
@@ -968,6 +1070,7 @@ label.custom-file-upload {
 		}
 	}
 }
+
 
 // checkbox
 

@@ -268,3 +268,9 @@ main {
     width: 100%;
     justify-content: space-between;
 }
+
+.st-sticky-share-buttons .st-left .st-toggleable .st-has-labels .st-show-total,
+#st-3.st-left,
+.st-sticky-share-buttons {
+  display: none !important;
+}

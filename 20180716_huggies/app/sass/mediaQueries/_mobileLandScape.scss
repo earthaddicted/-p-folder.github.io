@@ -4,6 +4,14 @@
 		.btn-wrapper a, span {
 			margin: 20px 0;
 		}
+
+		.radio-style {
+			span, a {
+				margin: 0;
+			}
+		}
+
+
 	}
 	.main-page {
 		&::before {
