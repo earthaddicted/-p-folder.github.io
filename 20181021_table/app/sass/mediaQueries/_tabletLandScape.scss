@@ -1,0 +1,122 @@
+@media only screen and (max-width: 968px) {
+	.section-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 691px;
+		width: 100%;
+		// padding: 0 20px;
+	}
+
+	header {
+		.section-wrapper {
+			padding: 27px 0 10px;
+		}
+	}
+
+	.btn-submit {
+		margin-left: 7px;
+	}
+
+	.tabs-block {
+		display: block;
+		float: unset;
+		order: 2;
+		max-width: 100%;
+		margin-top: 33px;
+	}
+
+	.tabs-content .tab > p {
+		padding: 6px 2px 12px;
+	}
+
+	.info-text-block {
+		order: 1;
+		width: 100%;
+		padding: 0px 15px;
+	}
+
+	.news-block {
+		order: 3;
+	}
+
+	.benefits-block {
+		display: inline-block;
+		order: 4;
+		width: 100%;
+		max-width: 420px;
+		margin-left: 20px;
+	}
+
+	.multi-blocks {
+		display: block;
+		padding-top: 5px;
+
+		&__item {
+			max-width: 100%;
+			width: 100%;
+			margin: 28px 0 0;
+			padding: 0;
+		}
+
+		&-section {
+			.section-wrapper {
+				justify-content: space-between;
+				padding: 19px 0 0;
+			}
+		}
+
+		&::after {
+			height: 1px;
+		}
+	}
+
+	.multi-blocks__item:last-of-type {
+		max-width: 100%;
+	}
+
+	section, .benefits-block {
+		h1, h2 {
+		    margin: 9px 0 3px;
+		}
+	}
+
+	.news-block,
+	.benefits-block {
+		margin: 40px 0;
+		padding-top: 0;
+	}
+
+	.tabs {
+		margin: auto;
+
+	}
+
+	header,
+	footer,
+	main {
+		padding: 0 20px;
+	}
+
+	// .tabs-header li:not(:first-of-type),
+	// .tabs-header li:not(:last-of-type) {
+	// 	margin: 0 1px;
+	// }
+
+	.tabs-header li {
+		margin-right: 14px;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	footer p {
+	    margin: 18px 1px;
+	}
+
+	footer .nav-menu ul a {
+	    margin: 20px 0;
+	    padding: 0 0 0 33px;
+	}
+
+}

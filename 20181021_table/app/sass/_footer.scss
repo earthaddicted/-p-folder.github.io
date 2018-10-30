@@ -1,0 +1,39 @@
+
+/* ============= FOOTER  ============= */
+footer {
+	p {
+		margin: 11px 16px;
+	}
+
+	.section-wrapper {
+		display: flex;
+		justify-content: space-between;
+		// align-items: center;
+		padding-bottom: 40px;
+		@include border-gradient-top;
+
+
+		* {
+			color: #325ff5;
+			font-size: 12px;
+			font-weight: 400;
+		}
+	}
+
+	.nav-menu ul {
+		display: flex;
+
+		a {
+			text-decoration: none;
+			display: block;
+			margin: 8px 0;
+			padding:  0 3px 0 30px;
+			color: #325ff5;
+		}
+
+	}
+}
+
+
+
+/* ============= FOOTER END ============= */

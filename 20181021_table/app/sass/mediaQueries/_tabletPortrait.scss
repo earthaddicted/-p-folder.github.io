@@ -1,0 +1,82 @@
+@media only screen and (max-width: 680px) {
+
+	.tabs {
+		&-header a {
+			width: 75px;
+			font-size: 10px;
+		}
+
+		&-block {
+			max-height: 409px;
+			max-height: unset;
+			height: auto;
+			margin-top: 23px;
+			padding: 14px 14px 1px;
+		}
+
+		&-content .tab > p {
+		    padding: 6px 2px 16px;
+		}
+	}
+
+	.section-wrapper {
+		max-width: 510px;
+		width: auto;
+	}
+
+	.benefits-block {
+		// width: 50%;
+		max-width: 270px;
+		width: auto;
+		// padding-right: 20px;
+		padding-left: 0;
+	}
+
+	.benefits-block h1,
+	.benefits-block h2 {
+	    padding: 0 0px;
+	}
+
+	.logo {
+		margin-left: 0;
+	}
+
+	.info-text-block {
+		padding: 0;
+	}
+
+
+	.scroll-defect-hide {
+		display: block;
+		// bottom: -1.75px;
+		bottom: -1.95px;
+		// right: -1.75px;
+		right: -1.95px;
+	}
+
+	.table-wrapper {
+		height: 273px;
+	}
+
+	.table-wrapper table td {
+		min-width: 107px;
+	}
+
+	.news-block, 
+	.benefits-block {
+	    margin: 31px 0;
+	}
+
+	.multi-blocks__item {
+		margin: 18px 0 0;
+	}
+
+	.tabs-header li {
+		margin-right: 6px;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+}
