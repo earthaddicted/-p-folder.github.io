@@ -2,9 +2,9 @@
 
 github page for small greeting card https://earthaddicted.github.io/-p-folder.github.io/greetingCard.github.io/
 
-github page 1st freelance-prjct https://earthaddicted.github.io/-p-folder.github.io/antidi.github.io/
+<!-- github page 1st freelance-prjct https://earthaddicted.github.io/-p-folder.github.io/antidi.github.io/ -->
 
-github page 2nd freelance-prjct https://earthaddicted.github.io/-p-folder.github.io/youthcenter.github.io/
+<!-- github page 2nd freelance-prjct https://earthaddicted.github.io/-p-folder.github.io/youthcenter.github.io/ -->
 
 github page for test email baised on ZURB Foundation email template  https://earthaddicted.github.io/-p-folder.github.io/test/foundation_testemil.github.io/dist/
 
