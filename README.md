@@ -21,3 +21,5 @@ github page for Врата миров поездка https://earthaddicted.githu
 github page for Coin simple variant v1 https://earthaddicted.github.io/-p-folder.github.io/20171110_gtcoin.io/dist/index.html
 
 github page for huggies  https://earthaddicted.github.io/-p-folder.github.io/20180716_huggies/dist/
+
+github page for landing with table  https://earthaddicted.github.io/-p-folder.github.io/20181021_table/dist/
