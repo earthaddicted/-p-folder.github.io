@@ -25,3 +25,6 @@ github page for huggies  https://earthaddicted.github.io/-p-folder.github.io/201
 github page for landing with table  https://earthaddicted.github.io/-p-folder.github.io/20181021_table/dist/
 
 fragrant test task https://earthaddicted.github.io/t-projects/20181101_forgrant/dist/
+
+
+Rademade test task https://earthaddicted.github.io/t-projects/20181109_Rademade/build/
