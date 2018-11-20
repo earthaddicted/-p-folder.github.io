@@ -27,4 +27,4 @@ github page for landing with table  https://earthaddicted.github.io/-p-folder.gi
 fragrant test task https://earthaddicted.github.io/t-projects/20181101_forgrant/dist/
 
 
-Rademade test task https://earthaddicted.github.io/t-projects/20181109_Rademade/build/
+Rademade test task https://earthaddicted.github.io/preview/20181109_Rademade/build/
