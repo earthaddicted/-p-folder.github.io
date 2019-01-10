@@ -29,3 +29,5 @@ fragrant test task https://earthaddicted.github.io/t-projects/20181101_forgrant/
 Rademade test task https://earthaddicted.github.io/preview/20181109_Rademade/build/
 
 Zinit Solutions test task https://earthaddicted.github.io/t-projects/20181123_Zinit/dist/
+
+For OPEX (as a part of a team) https://earthaddicted.github.io/shimko.io/build/index.html
