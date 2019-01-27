@@ -26,7 +26,7 @@ github page for landing with table  https://earthaddicted.github.io/-p-folder.gi
 
 forgrant test task https://earthaddicted.github.io/t-projects/20181101_forgrant/dist/
 
-Rademade test task https://earthaddicted.github.io/preview/20181109_Rademade/build/
+Rademade test task (desktop only) https://earthaddicted.github.io/preview/20181109_Rademade/build/
 
 Zinit Solutions test task https://earthaddicted.github.io/t-projects/20181123_Zinit/dist/
 
