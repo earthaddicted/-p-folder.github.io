@@ -31,3 +31,5 @@ Rademade test task (desktop only) https://earthaddicted.github.io/preview/201811
 Zinit Solutions test task https://earthaddicted.github.io/t-projects/20181123_Zinit/dist/
 
 For OPEX (as a part of a team) https://earthaddicted.github.io/shimko.io/build/index.html
+
+Tradelize https://earthaddicted.github.io/tradelize.io/dist/
