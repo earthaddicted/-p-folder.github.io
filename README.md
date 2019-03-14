@@ -24,4 +24,12 @@ github page for huggies  https://earthaddicted.github.io/-p-folder.github.io/201
 
 github page for landing with table  https://earthaddicted.github.io/-p-folder.github.io/20181021_table/dist/
 
-fragrant test task https://earthaddicted.github.io/t-projects/20181101_forgrant/dist/
+forgrant test task https://earthaddicted.github.io/t-projects/20181101_forgrant/dist/
+
+Rademade test task (desktop only) https://earthaddicted.github.io/preview/20181109_Rademade/build/
+
+Zinit Solutions test task https://earthaddicted.github.io/t-projects/20181123_Zinit/dist/
+
+For OPEX (as a part of a team) https://earthaddicted.github.io/shimko.io/build/index.html
+
+Tradelize https://earthaddicted.github.io/tradelize.io/dist/
