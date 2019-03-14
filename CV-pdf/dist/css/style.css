@@ -920,13 +920,7 @@ a {
   0% {
     -webkit-transform: translate(0);
             transform: translate(0); }
-  6.66667% {
-    -webkit-transform: translate(0);
-            transform: translate(0); }
-  13.33333% {
-    -webkit-transform: translateX(0) rotateZ(0);
-            transform: translateX(0) rotateZ(0); }
-  20% {
+  17% {
     -webkit-transform: translateX(0) translate(0) rotateZ(-2deg);
             transform: translateX(0) translate(0) rotateZ(-2deg); }
   26.66667% {
@@ -946,13 +940,7 @@ a {
   0% {
     -webkit-transform: translate(0);
             transform: translate(0); }
-  6.66667% {
-    -webkit-transform: translate(0);
-            transform: translate(0); }
-  13.33333% {
-    -webkit-transform: translateX(0) rotateZ(0);
-            transform: translateX(0) rotateZ(0); }
-  20% {
+  17% {
     -webkit-transform: translateX(0) translate(0) rotateZ(-2deg);
             transform: translateX(0) translate(0) rotateZ(-2deg); }
   26.66667% {

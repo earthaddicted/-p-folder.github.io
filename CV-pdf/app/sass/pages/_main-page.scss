@@ -467,13 +467,13 @@ a {
     0% {
         transform: translate(0);
     }
-    6.66667% {
-        transform: translate(0);
-    }
-    13.33333% {
-        transform: translateX(0) rotateZ(0);
-    }
-    20% {
+    // 6.66667% {
+    //     transform: translate(0);
+    // }
+    // 13.33333% {
+    //     transform: translateX(0) rotateZ(0);
+    // }
+    17% {
         transform: translateX(0) translate(0) rotateZ(-2deg);
     }
     26.66667% {
