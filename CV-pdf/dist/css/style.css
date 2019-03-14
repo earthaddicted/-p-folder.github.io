@@ -522,18 +522,6 @@ a {
     .block-row__contacts a .fa {
       margin-right: 20px; }
 
-.two-col {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-  .two-col .block-col {
-    width: 50%;
-    margin: 40px 0;
-    text-align: left; }
-  .two-col .block-row {
-    margin: 0; }
-
 /* skills */
 .block-col:first-of-type {
   border-right: 2px solid #cedb41;
@@ -541,6 +529,7 @@ a {
 
 .block-col__skills {
   margin: 40px 20px;
+  padding-left: 20px;
   text-align: left; }
 
 .block-col__experience {
@@ -608,6 +597,25 @@ a {
   padding: 15px 35px;
   background-color: #8f8d8d;
   z-index: 10; }
+
+.single-col .block-row {
+  width: 100%; }
+  .single-col .block-row:first-of-type {
+    border-right: none; }
+  .single-col .block-row ul li {
+    line-height: 2; }
+
+.two-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .two-col .block-col {
+    width: 50%;
+    margin: 40px 0;
+    text-align: left; }
+  .two-col .block-row {
+    margin: 0; }
 
 /* ----- animated image ----- */
 .wrapper-img *,
